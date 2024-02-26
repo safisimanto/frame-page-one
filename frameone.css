@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/banner1.png);
+    background-size: cover;
+    text-align: end;
+    position: relative;
+
+
+
+}
+
+header .contant {
+    width: 505px;
+    position: absolute;
+    top: 130px;
+    right: 125px;
+
+
+}
+
+header .contant>button {
+    padding: 7px 5px;
+    border: 1px solid #F15B22;
+    color: #fff;
+    background-color: #F15B22;
+    cursor: pointer;
+}
+
+main .itam{
+    width: 100%;
+    height: 100vh;
+}
+
+main .itam .itam-in{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+
+main .itam .itam-in
+.logo-side{
+    width: 50%;
+
+}
+main .itam .itam-in
+.my-itam{
+    width: 50%;
+
+}
+
+main .itam .itam-in
+.my-itam .my-itam-in{
+    width: 416px;
+
+}
+
+main .itam .itam-in
+.my-itam .my-itam-in i{
+    color: #16d887;
+}
+
+
+.my-plan{
+    width: 80%;
+    min-height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top:50px ;
+    margin-bottom: 80px;
+}
+
+.my-plan .my-plan-in{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+
+main .contact{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url('images/watch.png');
+    
+    background-image:
+    linear-gradient(to bottom, rgb(186, 122, 54), rgba(241, 91, 34, 0.0387)),
+    url('images/watch.png');
+    
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+ /* #F15B22 */
+}
+
+main .contact .contact-in{
+    padding-top: 100px;
+  padding-left: 70px;
+}
+main .contact .contact-in>button,.btn{
+
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #F15B22;
+}
+
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 30px 0px;
+    
+} 
+
+footer .footer-in{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+footer .footer-in .one
+,.two{
+    width: 50%;
+}
+footer .footer-in .one>img{
+    margin: 0px 6px;
+    width: 30px;
+}
+
+
+footer .footer-in .two .two-in{
+    padding: 0px 90px;
+}
+
+footer .footer-in .two .two-in input{
+    background: transparent;
+  border: 2px solid #cdcdcd;
+  border-radius: 5px;
+  color: #fff;
+  padding: 7px;
+}
